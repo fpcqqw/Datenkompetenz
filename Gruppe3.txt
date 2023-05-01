@@ -1,0 +1,12 @@
+Gruppenarbeit 3 (Pfaddiagramme)
+
+Angenommen, du untersuchst den Zusammenhang zwischen dem Alkoholkonsum und der körperlichen Fitness von Personen. 
+Du vermutest, dass es einen indirekten Zusammenhang über die Ernährung gibt. Die Daten für deine Untersuchung hast du aus einer Umfrage unter 200 Personen gewonnen. 
+Die Umfrage enthält Informationen zum wöchentlichen Alkoholkonsum (in Gläsern), zur körperlichen Fitness (gemessen anhand eines Fitness-Tests), 
+zur Ernährung (gemessen anhand des BMI) sowie zum Alter der Probanden. Du möchtest nun ein Pfaddiagramm erstellen, um den Zusammenhang zwischen Alkoholkonsum und körperlicher Fitness zu untersuchen.
+
+Aufgabe: Zeichne das Pfaddiagramm, das den Zusammenhang zwischen Alkoholkonsum und körperlicher Fitness über die Ernährung darstellt. Beachte dabei auch den Einfluss des Alters auf die Ernährung und die körperliche Fitness.
+
+Lösung:
+Alkoholkonsum -> Ernährung -> körperliche Fitness
+Alkoholkonsum -> Alter -> Ernährung -> körperliche Fitness
