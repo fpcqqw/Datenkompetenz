@@ -1,12 +1,49 @@
-Gruppenarbeit 3 (Pfaddiagramme)
+Gruppenarbeit 4 (Pfaddiagramm und Explainaway Bias)
 
-Angenommen, du untersuchst den Zusammenhang zwischen dem Alkoholkonsum und der körperlichen Fitness von Personen. 
-Du vermutest, dass es einen indirekten Zusammenhang über die Ernährung gibt. Die Daten für deine Untersuchung hast du aus einer Umfrage unter 200 Personen gewonnen. 
-Die Umfrage enthält Informationen zum wöchentlichen Alkoholkonsum (in Gläsern), zur körperlichen Fitness (gemessen anhand eines Fitness-Tests), 
-zur Ernährung (gemessen anhand des BMI) sowie zum Alter der Probanden. Du möchtest nun ein Pfaddiagramm erstellen, um den Zusammenhang zwischen Alkoholkonsum und körperlicher Fitness zu untersuchen.
 
-Aufgabe: Zeichne das Pfaddiagramm, das den Zusammenhang zwischen Alkoholkonsum und körperlicher Fitness über die Ernährung darstellt. Beachte dabei auch den Einfluss des Alters auf die Ernährung und die körperliche Fitness.
+In einer Studie wird untersucht, welche Faktoren die akademische Leistung von Schülern beeinflussen. 
+Es werden Daten von 1000 Schülern aus verschiedenen Schulen und Klassenstufen gesammelt. 
+Es wurden mehrere Variablen erhoben, einschließlich sozioökonomischer Status, Geschlecht, Alter, Zeit, die mit Hausaufgaben verbracht wird, Anzahl der außerschulischen Aktivitäten und schulbezogene Variablen wie Notendurchschnitt und Testergebnisse.
+
+Es wurden mehrere Hypothesen aufgestellt:
+
+    Hypothese 1: Schüler mit höherem sozioökonomischen Status haben bessere Noten
+    Hypothese 2: Mädchen haben bessere Noten als Jungen
+    Hypothese 3: Schüler, die mehr Zeit mit Hausaufgaben verbringen, haben bessere Noten
+    Hypothese 4: Schüler, die an mehr außerschulischen Aktivitäten teilnehmen, haben schlechtere Noten
+    Hypothese 5: Schüler mit besseren Testergebnissen haben bessere Noten
+
+Zeichne einen causal path, der zeigt, welche Variablen die akademische Leistung der Schüler beeinflussen. Identifiziere auch potenzielle Konfundierende Variablen und wie sie das Ergebnis beeinflussen können.
+
+----------------------------------
+
+Ein Forscher untersucht den Zusammenhang zwischen der Einnahme von Vitamin C und dem Risiko von Herzkrankheiten. 
+Dabei findet er einen positiven Zusammenhang: Menschen, die regelmäßig Vitamin C einnehmen, haben ein geringeres Risiko für Herzkrankheiten als Menschen, die kein Vitamin C einnehmen. 
+Der Forscher schließt daraus, dass Vitamin C eine schützende Wirkung gegen Herzkrankheiten hat. Was ist das Problem mit dieser Schlussfolgerung?
+
+
+----------------------------------
+----------------------------------
 
 Lösung:
-Alkoholkonsum -> Ernährung -> körperliche Fitness
-Alkoholkonsum -> Alter -> Ernährung -> körperliche Fitness
+Die akademische Leistung der Schüler wird durch mehrere Faktoren beeinflusst, die in einem causal path dargestellt werden können. Der Pfad könnte folgendermaßen aussehen:
+
+sozioökonomischer Status → Anzahl der außerschulischen Aktivitäten → Testergebnisse → Zeit, die mit Hausaufgaben verbracht wird → akademische Leistung
+
+Es gibt jedoch mehrere potenzielle Konfundierende Variablen, die das Ergebnis beeinflussen können:
+
+    Geschlecht: Mädchen haben möglicherweise einen höheren sozioökonomischen Status oder mehr Zeit für Hausaufgaben als Jungen, was zu höheren Noten führt.
+    Alter: Ältere Schüler haben möglicherweise mehr Zeit für außerschulische Aktivitäten und Hausaufgaben als jüngere Schüler.
+    Schulen und Klassenstufen: Unterschiedliche Schulen und Klassenstufen haben möglicherweise unterschiedliche Anforderungen und Lehrmethoden, die sich auf die Noten auswirken könnten.
+
+Daher ist es wichtig, diese Konfundierenden Variablen in der Analyse zu berücksichtigen, um eine genaue Bewertung der Auswirkungen der untersuchten Faktoren auf die akademische Leistung der Schüler zu ermöglichen.
+
+----------------------------------
+Lösung:
+
+Das Problem mit dieser Schlussfolgerung ist, dass der Explainaway Bias vorliegen könnte. 
+Es könnte nämlich sein, dass Menschen, die regelmäßig Vitamin C einnehmen, auch generell einen gesünderen Lebensstil haben. 
+Sie könnten beispielsweise mehr Sport treiben, sich gesünder ernähren oder insgesamt weniger stressige Lebensumstände haben. 
+Diese Faktoren könnten ebenfalls das Risiko für Herzkrankheiten reduzieren. 
+Wenn der Forscher nur den Zusammenhang zwischen Vitamin C und Herzkrankheiten betrachtet und nicht gleichzeitig auch andere Einflussfaktoren berücksichtigt, könnte er den tatsächlichen Einfluss von Vitamin C auf das Herzkrankheitsrisiko überschätzen oder sogar falsch interpretieren.
+
